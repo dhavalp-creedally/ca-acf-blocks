@@ -1,0 +1,31 @@
+{
+  "name": "creedally/ca-acf-blocks",
+  "description": "CreedAlly ACF Blocks - WordPress plugin to register custom blocks using ACF Pro",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7",
+    "wp-coding-standards/wpcs": "^3.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+  },
+  "scripts": {
+    "lint": "phpcs --standard=phpcs.xml",
+    "fix": "phpcbf --standard=phpcs.xml"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "sort-packages": true
+  },
+  "extra": {
+    "phpcodesniffer-standard": [
+      "WordPress",
+      "WordPress-Core",
+      "WordPress-Extra",
+      "WordPress-Docs"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

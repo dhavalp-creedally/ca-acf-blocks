@@ -1,0 +1,13 @@
+{
+  "name": "ca-acf-block",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/css/index.css -o ./assets/build/style.min.css --minify",
+    "watch": "tailwindcss -i ./assets/css/index.css -o ./assets/build/style.min.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.0.0"
+  }
+}

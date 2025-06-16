@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Hyperjump';
+  src: url('../fonts/Hyperjump-Hairline.otf') format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Hyperjump';
+  src: url('../fonts/Hyperjump-Thin.otf') format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Hyperjump';
+  src: url('../fonts/Hyperjump-Light.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Hyperjump';
+  src: url('../fonts/Hyperjump-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Hyperjump';
+  src: url('../fonts/Hyperjump-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Hyperjump';
+  src: url('../fonts/Hyperjump-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+}

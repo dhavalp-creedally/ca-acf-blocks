@@ -1,0 +1,20 @@
+# Ignore node dependencies
+node_modules/
+
+# Ignore Composer dependencies
+vendor/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor config files
+.vscode/
+.idea/
+
+# Ignore cache and lock files
+phpcs.xml.cache
+composer.lock
+package-lock.json
+yarn.lock

@@ -1,0 +1,70 @@
+@import url('font-family.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .description p {
+        @apply text-[18px] font-bold font-hyperjump mb-4 text-black leading-[1.15];
+    }
+
+    .description ul {
+        @apply text-[18px] font-bold font-hyperjump mb-4 pl-6 leading-[1.15];
+    }
+    .description li {
+        @apply text-[18px] font-bold font-hyperjump mb-4 leading-[1.15];
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url('../images/citron.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            left: -1.5rem;
+            color: #F79899;
+            width: 1.2rem;
+            height: 1.5rem;
+        }
+    }
+
+    .card-sub p {
+        @apply mb-0;
+    }
+
+    .section-image-with-content{
+        position: relative;
+
+        &::before {
+
+            @media (min-width: 80rem) {
+                content: '';   
+                position: absolute;
+                top: 3%;
+                left: -4%;
+                width: 100%;
+                height: 100%;
+                background-image: var(--section-bg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: top;
+                z-index: -1;
+                pointer-events: none;
+                border-radius: inherit;
+                transition: background-size 0.3s ease;
+            }
+
+            @media (min-width: 85.375rem) {
+                top: -2%;
+                transform: rotate(-1deg);
+            }
+
+            @media (min-width: 96rem) {
+                top: -5%;
+                transform: rotate(-4deg);
+            }
+        }
+    }
+}

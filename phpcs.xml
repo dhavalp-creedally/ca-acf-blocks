@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="CreedAlly ACF Plugin Rules">
+    <description>Custom WordPress plugin coding standards.</description>
+
+    <!-- Include WordPress Coding Standards -->
+    <rule ref="WordPress-Core"/>
+    <rule ref="WordPress-Docs"/>
+    <rule ref="WordPress-Extra"/>
+
+    <!-- Exclude files and folders -->
+    <exclude-pattern>*.js</exclude-pattern>
+    <exclude-pattern>*.css</exclude-pattern>
+    <exclude-pattern>*.json</exclude-pattern>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+    <exclude-pattern>assets/*</exclude-pattern>
+
+    <!-- Files to scan -->
+    <file>.</file>
+</ruleset>

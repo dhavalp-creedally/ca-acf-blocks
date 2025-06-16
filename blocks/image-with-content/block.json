@@ -1,0 +1,14 @@
+{
+  "name": "ca-acf-blocks/image-with-content",
+  "title": "Image with Content",
+  "description": "A two-column section with title, description, image, and button.",
+  "category": "ca-acf-blocks",
+  "icon": "cover-image",
+  "keywords": [ "banner", "section", "image", "text"],
+  "attributes": {},
+  "supports": {
+    "align": true,
+    "mode": true,
+    "html": false
+  }
+}
