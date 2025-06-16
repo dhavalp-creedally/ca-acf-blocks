@@ -121,3 +121,22 @@ The plugin ships with pre-built ACF field groups stored as JSON inside the acf-b
 - Open any page/post.
 - Click Add Block (+) and search for Image with Content or any block title you’ve registered.
 - Fill in fields from the ACF sidebar and save.
+
+## 📸 Screenshots
+
+### 1. Frontend Output
+![Frontend Output](screenshots/block-frontend-view.png)
+
+### 2. Editor Output
+![Editor Output](screenshots/block-editor-view.png)
+
+### 3. Blocks Fields
+
+#### 1. Section One
+![Section One Fields](screenshots/block-editor-section-1-fields.png)
+
+#### 2. Section Two
+![Section Two Fields](screenshots/block-editor-section-2-fields.png)
+
+#### 3. Section Background
+![Section Background Fields](screenshots/block-editor-section-bg-fields.png)
