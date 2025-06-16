@@ -65,7 +65,7 @@ if ( $section_background_image ) {
 		</div>
 
 		<div class="w-full md:w-2/3">
-			<div class="card description pt-8 md:pt-12 pb-8 xl:pb-0 px-6 md:px-8 rounded-2xl bg-cover bg-no-repeat mb-4 bg-no-repeat bg-cover xl:[background-size:100%] [background-position:top_center]"
+			<div class="card w-full max-w-full border-0 shadow-none description pt-8 md:pt-12 pb-8 xl:pb-0 px-6 md:px-8 rounded-2xl bg-cover bg-no-repeat mb-4 bg-no-repeat bg-cover xl:[background-size:100%] [background-position:top_center]"
 				style="<?php echo ! empty( $section_two['background_image'] ) ? 'background-image: url(' . esc_url( $section_two['background_image'] ) . ');' : ''; ?>">
 
 				<?php if ( ! empty( $section_two['title'] ) ) : ?>
